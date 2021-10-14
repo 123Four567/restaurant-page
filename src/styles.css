@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url('../src/images/home_background.jpg');
+	background-size: cover;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 200px;
+	background-color: black;
+	color: white;
+	border-bottom: 3px solid whitesmoke;
+}
+
+.navbar {
+	display: flex;
+}
+
+.navbar button{
+	margin: 20px;
+	width: 5rem;
+	height:  2rem;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+
+.navbar button:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding: 20px;
+	min-height: 100vh 
+}
+
+.page-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	border: 3px solid black;
+	width: 60%;
+	color: white;
+	background-color: black;
+	padding: 30px;
+	border: 3px solid whitesmoke;
+}
+
+img {
+	width: 100%;
+}
+
+.page-content h2,p{
+	margin: 20px;
+}
+
+.page-content section{
+	display: flex;
+	flex-direction: column;
+}
+
+.page-content h2{
+	text-align: center;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 150px;
+	border-top: 3px solid whitesmoke;
+	color: white;
+	background-color: black;
+}
